@@ -106,13 +106,13 @@ analytics:
 author:
   name             : "Yeowoon Park"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a Marketing Ph.D. Student at the University of Texas at Dallas."
-  location         : "Somewhere"
-  email            :
+  bio              : "I am a marketing ph.d. student at the University of Texas at Dallas."
+  location         : "Naveen Jindall School of Management"
+  email            : "yeowoon.park@utdallas.edu"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "yeowoon.park@utdallas.edu"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -127,7 +127,7 @@ author:
       # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://instagram.com/yo_woooni/"
 
 # Site Footer
 footer:
