@@ -18,14 +18,14 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "Yeowoon Park"
 title_separator          : "|"
-subtitle                 : "Gather ye rosebuds while ye may,"
+subtitle                 : "yeowoon.park@utdallas.edu"
 name                     : "Yeowoon Park"
 description              : "Marketing Ph.D. Student at the University of Texas at Dallas"
 url                      : "https://yeowoon-park.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/logoorange.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
