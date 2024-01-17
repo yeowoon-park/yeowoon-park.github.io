@@ -105,14 +105,14 @@ analytics:
 # Site Author
 author:
   name             : "Yeowoon Park"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/me.jpeg"
   bio              : "I am a marketing ph.d. student at the University of Texas at Dallas."
   location         : "Naveen Jindall School of Management"
-  email            : #"yeowoon.park@utdallas.edu"
+  email            : "yeowoon.park@utdallas.edu"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "yeowoon.park@utdallas.edu"
+      url: #"yeowoon.park@utdallas.edu"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
