@@ -1,2 +1,6 @@
-<table><tr><td class="border_l border_r border_t border_b selected"><div class="wrap"><div style="margin: 10px 5px;"></div></div></td><td class="border_l border_r border_t border_b selected"><div class="wrap"><div style="margin: 10px 5px;"></div></div></td><td class="border_l border_r border_t border_b selected"><div class="wrap"><div style="margin: 10px 5px;"></div></div></td><td class="border_l border_r border_t border_b selected"><div class="wrap"><div style="margin: 10px 5px;"></div></div></td><td class="border_l border_r border_t border_b selected"><div class="wrap"><div style="margin: 10px 5px;"></div></div></td></tr></table>
+
+| title    | layout     | permalink  | author_profile | sidebar_main |
+|----------|------------|------------|----------------|--------------|
+| CV       | categories | /cv/       | true           | true         |
+| Research | categories | /research/ | true           | true         |
 
