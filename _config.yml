@@ -108,7 +108,7 @@ author:
   avatar           : "/assets/images/profile.jpg"
   bio              : "I am a Marketing Ph.D. student at the University of Texas at Dallas."
   location         : "JSOM"
-  email            : "yeowoon.park@utdallas.edu"
+  email            : #"yeowoon.park@utdallas.edu"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
