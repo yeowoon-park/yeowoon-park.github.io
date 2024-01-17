@@ -1,12 +1,2 @@
----
-title: "CV"
-layout: categories
-permalink: /cv/
-author_profile: true
-sidebar_main: true
-title: "Research"
-layout: categories
-permalink: /research/
-author_profile: true
-sidebar_main: true
----
+<table><tr><td class="border_l border_r border_t border_b selected"><div class="wrap"><div style="margin: 10px 5px;"></div></div></td><td class="border_l border_r border_t border_b selected"><div class="wrap"><div style="margin: 10px 5px;"></div></div></td><td class="border_l border_r border_t border_b selected"><div class="wrap"><div style="margin: 10px 5px;"></div></div></td><td class="border_l border_r border_t border_b selected"><div class="wrap"><div style="margin: 10px 5px;"></div></div></td><td class="border_l border_r border_t border_b selected"><div class="wrap"><div style="margin: 10px 5px;"></div></div></td></tr></table>
+
