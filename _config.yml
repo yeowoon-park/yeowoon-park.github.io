@@ -17,8 +17,8 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 title                    : "Yeowoon Park"
-title_separator          : "Gather ye rosebuds while ye may,"
-subtitle                 : # site tagline that appears below site title in masthead
+title_separator          : "|"
+subtitle                 : "Gather ye rosebuds while ye may,"
 name                     : "Yeowoon Park"
 description              : "Marketing Ph.D. Student at the University of Texas at Dallas"
 url                      : "https://yeowoon-park.github.io"
