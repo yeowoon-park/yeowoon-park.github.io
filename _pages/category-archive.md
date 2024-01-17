@@ -1,7 +1,7 @@
 ---
-title: "Category"
+title: "CV"
 layout: categories
-permalink: /categories/
+permalink: /cv/
 author_profile: true
 sidebar_main: true
 ---
