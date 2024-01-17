@@ -1,5 +1,7 @@
-
-| title     | layout     | permalink  | author_profile | sidebar_main |
-|---------- |------------|------------|----------------|--------------|
-| "CV"      | categories | /cv/       | true           | true         |
-
+---
+title: "CV"
+layout:
+permalink: /cv/
+author_profile: true
+sidebar_main: true
+---
