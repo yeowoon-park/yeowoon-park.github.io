@@ -220,7 +220,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: US/Central
+timezone: #US/Central
 
 
 # Plugins (previously gems:)
@@ -257,8 +257,8 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-jekyll-archives:
-  enabled:
+ jekyll-archives:
+   enabled:
      - categories
      - tags
    layouts:
