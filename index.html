@@ -50,7 +50,7 @@
         </div>
       </section>
 
-      <section class="intro-band" id="universe" aria-labelledby="universe-title">
+      <section class="intro-band" aria-labelledby="universe-title">
         <div>
           <p class="eyebrow">Shared World</p>
           <h2 id="universe-title">One tiny universe, many games.</h2>
@@ -71,7 +71,17 @@
         <article class="app-card featured" id="planet10">
           <div class="app-media">
             <img class="app-icon" src="/assets/sejame/planet10-app-icon.png" alt="Planet10 app icon">
-            <img class="planet-preview" src="/assets/sejame/planet-set-preview.png" alt="Planet10 planet characters">
+            <div class="gameplay-frame landscape">
+              <video
+                src="/assets/sejame/clips/planet10-gameplay-landscape.mp4"
+                poster="/assets/sejame/clips/planet10-gameplay-landscape-preview.jpg"
+                autoplay
+                loop
+                muted
+                playsinline
+                aria-label="Planet10 gameplay video"
+              ></video>
+            </div>
           </div>
           <div class="app-copy">
             <span class="status live">Available now</span>
@@ -96,7 +106,13 @@
         <article class="app-card" id="planetpop">
           <div class="app-media">
             <img class="app-icon" src="/assets/sejame/planetpop-sprout.png" alt="Planetpop green antenna planet">
-            <img class="planet-preview" src="/assets/sejame/planetpop-blackhole.png" alt="Planetpop black hole planet">
+            <div class="gameplay-frame planetpop-preview" aria-label="Planetpop gameplay preview">
+              <div class="drop-line"></div>
+              <img class="preview-planet preview-planet-one" src="/assets/sejame/planetpop-sprout.png" alt="">
+              <img class="preview-planet preview-planet-two" src="/assets/sejame/planet10-planet.png" alt="">
+              <img class="preview-planet preview-planet-three" src="/assets/sejame/planetpop-blackhole.png" alt="">
+              <span class="preview-caption">Gameplay preview</span>
+            </div>
           </div>
           <div class="app-copy">
             <span class="status soon">Coming soon</span>
@@ -113,6 +129,63 @@
             </div>
           </div>
         </article>
+      </section>
+
+      <section class="universe-section" id="universe" aria-labelledby="characters-title">
+        <div class="section-heading">
+          <p class="eyebrow">Universe</p>
+          <h2 id="characters-title">Meet the Planet10 characters.</h2>
+        </div>
+        <div class="character-grid" aria-label="Planet10 character cards">
+          <article class="character-card common">
+            <span>No. 01</span>
+            <img src="/assets/sejame/universe/velvet-gazer.png" alt="Velvet Gazer character">
+            <h3>Velvet Gazer</h3>
+            <p>Original planet</p>
+          </article>
+          <article class="character-card common">
+            <span>No. 03</span>
+            <img src="/assets/sejame/universe/sprout-signal.png" alt="Sprout Signal character">
+            <h3>Sprout Signal</h3>
+            <p>Planetpop buddy</p>
+          </article>
+          <article class="character-card common">
+            <span>No. 04</span>
+            <img src="/assets/sejame/universe/cone-hat-starlit.png" alt="Cone Hat Starlit character">
+            <h3>Cone Hat</h3>
+            <p>Launch crew</p>
+          </article>
+          <article class="character-card rare">
+            <span>No. 15</span>
+            <img src="/assets/sejame/universe/cool-shade-antenna.png" alt="Cool Shade Antenna character">
+            <h3>Cool Shade</h3>
+            <p>Rare signal</p>
+          </article>
+          <article class="character-card rare">
+            <span>No. 36</span>
+            <img src="/assets/sejame/universe/neon-dj.png" alt="Neon DJ character">
+            <h3>Neon DJ</h3>
+            <p>Orbit rhythm</p>
+          </article>
+          <article class="character-card epic">
+            <span>No. 45</span>
+            <img src="/assets/sejame/universe/blue-black-hole.png" alt="Blue Black Hole character">
+            <h3>Blue Black Hole</h3>
+            <p>Epic pull</p>
+          </article>
+          <article class="character-card rare">
+            <span>No. 80</span>
+            <img src="/assets/sejame/universe/confetti-ufo.png" alt="Confetti UFO character">
+            <h3>Confetti UFO</h3>
+            <p>Space parade</p>
+          </article>
+          <article class="character-card epic">
+            <span>No. 100</span>
+            <img src="/assets/sejame/universe/unicorn-dream.png" alt="Unicorn Dream character">
+            <h3>Unicorn Dream</h3>
+            <p>Dream card</p>
+          </article>
+        </div>
       </section>
 
       <section class="feature-strip" aria-label="Planetpop item features">

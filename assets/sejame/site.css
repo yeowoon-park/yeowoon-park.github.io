@@ -290,6 +290,111 @@ h1 {
   object-fit: contain;
 }
 
+.gameplay-frame {
+  position: relative;
+  width: min(520px, 100%);
+  overflow: hidden;
+  background: #071526;
+  border: 2px solid rgba(16, 47, 63, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 18px 34px rgba(16, 47, 63, 0.13);
+}
+
+.gameplay-frame::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border: 5px solid rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+}
+
+.gameplay-frame video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.planetpop-preview {
+  aspect-ratio: 16 / 9;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.92) 0 64%, rgba(151, 156, 159, 0.82) 64%),
+    radial-gradient(circle at 32% 32%, rgba(255, 243, 166, 0.65), transparent 26%),
+    #f7fbf0;
+}
+
+.planetpop-preview::before {
+  content: "";
+  position: absolute;
+  left: 8%;
+  right: 8%;
+  bottom: 36%;
+  height: 3px;
+  background: rgba(16, 47, 63, 0.55);
+}
+
+.drop-line {
+  position: absolute;
+  left: 50%;
+  top: 12%;
+  width: 5px;
+  height: 44%;
+  transform: translateX(-50%);
+  background: rgba(16, 47, 63, 0.17);
+  border-radius: 999px;
+}
+
+.preview-planet {
+  position: absolute;
+  object-fit: contain;
+  filter: drop-shadow(0 8px 8px rgba(16, 47, 63, 0.16));
+}
+
+.preview-planet-one {
+  width: 18%;
+  left: 41%;
+  top: 5%;
+  animation: bob-preview 2.7s ease-in-out infinite;
+}
+
+.preview-planet-two {
+  width: 24%;
+  left: 19%;
+  bottom: 35%;
+  transform: rotate(-8deg);
+}
+
+.preview-planet-three {
+  width: 19%;
+  right: 20%;
+  bottom: 35%;
+  transform: rotate(8deg);
+}
+
+.preview-caption {
+  position: absolute;
+  left: 18px;
+  top: 14px;
+  padding: 5px 9px;
+  color: var(--deep);
+  background: rgba(255, 243, 166, 0.9);
+  border: 2px solid rgba(16, 47, 63, 0.18);
+  border-radius: 8px;
+  font-size: 0.78rem;
+  font-weight: 900;
+}
+
+@keyframes bob-preview {
+  0%,
+  100% {
+    transform: translateY(0) rotate(-3deg);
+  }
+
+  50% {
+    transform: translateY(10px) rotate(4deg);
+  }
+}
+
 .status {
   display: inline-flex;
   margin-bottom: 16px;
@@ -333,6 +438,76 @@ h1 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 14px;
   background: white;
+}
+
+.universe-section {
+  padding: clamp(44px, 7vw, 88px) clamp(20px, 6vw, 96px);
+  background:
+    radial-gradient(circle at 10% 18%, rgba(255, 183, 168, 0.22), transparent 28%),
+    radial-gradient(circle at 88% 16%, rgba(217, 247, 223, 0.48), transparent 30%),
+    #fff8fb;
+}
+
+.character-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.character-card {
+  display: grid;
+  justify-items: center;
+  min-height: 298px;
+  padding: 18px 16px 20px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 2px solid rgba(16, 47, 63, 0.16);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.character-card.common {
+  background: linear-gradient(180deg, #ffffff, #f5fff5);
+}
+
+.character-card.rare {
+  background: linear-gradient(180deg, #ffffff, #eef7ff);
+}
+
+.character-card.epic {
+  background: linear-gradient(180deg, #ffffff, #fff3e5);
+}
+
+.character-card span {
+  justify-self: end;
+  margin-bottom: 8px;
+  padding: 4px 8px;
+  color: var(--muted);
+  background: rgba(255, 255, 255, 0.68);
+  border: 2px solid rgba(16, 47, 63, 0.11);
+  border-radius: 8px;
+  font-size: 0.74rem;
+  font-weight: 900;
+}
+
+.character-card img {
+  width: min(126px, 54%);
+  height: 126px;
+  object-fit: contain;
+  margin-bottom: 14px;
+  filter: drop-shadow(0 14px 15px rgba(16, 47, 63, 0.14));
+}
+
+.character-card h3 {
+  margin-bottom: 4px;
+  font-size: clamp(1.2rem, 2vw, 1.65rem);
+  line-height: 1.05;
+}
+
+.character-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.94rem;
+  font-weight: 760;
 }
 
 .feature-strip div {
@@ -506,6 +681,7 @@ h1 {
   .intro-band,
   .app-card,
   .feature-strip,
+  .character-grid,
   .story-grid,
   .screenshot-row,
   .document-grid {
@@ -514,6 +690,10 @@ h1 {
 
   .app-card {
     text-align: left;
+  }
+
+  .character-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
@@ -541,5 +721,19 @@ h1 {
 
   .feature-strip img {
     width: 52px;
+  }
+
+  .character-grid {
+    gap: 12px;
+  }
+
+  .character-card {
+    min-height: 238px;
+    padding: 12px 10px 16px;
+  }
+
+  .character-card img {
+    width: min(110px, 64%);
+    height: 100px;
   }
 }
