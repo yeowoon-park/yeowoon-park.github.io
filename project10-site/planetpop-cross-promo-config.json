@@ -1,0 +1,50 @@
+{
+  "assignment_schema_version": "2026_07_planetpop_cross_promo_v1",
+  "default_cross_promo_arm": "settings_planet10_wakppuball",
+  "cross_promo_probs": {
+    "settings_planet10_wakppuball": 1
+  },
+  "arms": {
+    "settings_disabled": {
+      "app_ids": []
+    },
+    "settings_planet10_only": {
+      "app_ids": [
+        "planet10"
+      ]
+    },
+    "settings_planet10_wakppuball": {
+      "app_ids": [
+        "planet10",
+        "wakppuball"
+      ]
+    }
+  },
+  "apps": {
+    "planet10": {
+      "app_id": "planet10",
+      "title_ko": "Planet10",
+      "title_en": "Planet10",
+      "subtitle_ko": "10을 만들고 우주로 출발!",
+      "subtitle_en": "Make 10 to launch!",
+      "status": "live",
+      "accent": "#b8ecff",
+      "store_urls": {
+        "ios": "https://apps.apple.com/us/app/project10/id6758069799",
+        "android": "https://play.google.com/store/apps/details?id=com.sejame.project10&hl=en_US",
+        "web": "https://yeowoon-park.github.io/project10-site/"
+      }
+    },
+    "wakppuball": {
+      "app_id": "wakppuball",
+      "title_ko": "왁뿌볼",
+      "title_en": "Wakppu Ball",
+      "subtitle_ko": "곧 만나요",
+      "subtitle_en": "Coming soon",
+      "status": "coming_soon",
+      "accent": "#ffe0bd",
+      "store_urls": {}
+    }
+  },
+  "user_overrides": {}
+}
