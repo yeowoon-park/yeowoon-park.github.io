@@ -1,0 +1,33 @@
+{
+  "schema_version": "2026_07_planetpop_social_links_v1",
+  "links": {
+    "website": {
+      "label": "Website",
+      "status": "live",
+      "url": "https://yeowoon-park.github.io",
+      "coming_soon_ko": "웹사이트 준비 중이에요.",
+      "coming_soon_en": "Website is coming soon."
+    },
+    "instagram": {
+      "label": "Instagram",
+      "status": "live",
+      "url": "https://www.instagram.com/sejame.studio/",
+      "coming_soon_ko": "Instagram 계정 생성중이에요.",
+      "coming_soon_en": "Instagram account is being created."
+    },
+    "tiktok": {
+      "label": "TikTok",
+      "status": "coming_soon",
+      "url": "",
+      "coming_soon_ko": "TikTok 계정 생성중이에요.",
+      "coming_soon_en": "TikTok account is being created."
+    },
+    "youtube": {
+      "label": "YouTube",
+      "status": "coming_soon",
+      "url": "",
+      "coming_soon_ko": "YouTube 계정 생성중이에요.",
+      "coming_soon_en": "YouTube account is being created."
+    }
+  }
+}
